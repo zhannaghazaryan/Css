@@ -70,5 +70,20 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
 }
 
 [data-mj="sidebar-content"] {
+  padding: 64px 12px 12px 12px;
   border-radius: 0 !important;
+}
+
+[data-mj="sidebar-collapse"] {
+  position: fixed !important;
+  left: 14px !important;
+  inset-inline-end: auto !important;
+  top: 12px !important;
+  width: 40px !important;
+  min-width: 40px !important;
+  height: 40px !important;
+}
+
+[data-mj="sidebar-special-button"] {
+  margin-bottom: 12px;
 }
