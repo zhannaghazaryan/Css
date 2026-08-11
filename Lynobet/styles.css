@@ -1,3 +1,23 @@
 [data-mj="header"] {
   background-color: #06071b;
 }
+
+.sl-navlink.app-ltr-6zp56g {
+  color: #c0c1de;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sl-navlink.app-ltr-6zp56g:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"] {
+  background: transparent;
+  background-color: transparent;
+}
+
+button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover {
+  background: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
