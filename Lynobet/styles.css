@@ -12,6 +12,12 @@
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.sl-navlink.app-ltr-6zp56g .app-ltr-1trb7go {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+}
+
 button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"] {
   background: transparent;
   background-color: transparent;
@@ -51,7 +57,13 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-[data-mj="sidebar"] {
+[data-mj="sidebar"].app-ltr-17u1px6 {
+  width: 78px;
+  padding: 0;
+  border-radius: 0 !important;
+}
+
+[data-mj="sidebar"].app-ltr-1huuf1k {
   width: 260px;
   padding: 0;
   border-radius: 0 !important;
