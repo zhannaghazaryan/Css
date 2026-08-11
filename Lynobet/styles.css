@@ -87,3 +87,8 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
 [data-mj="sidebar-special-button"] {
   margin-bottom: 12px;
 }
+
+[data-mj="sidebar-section"] {
+  background: transparent;
+  background-color: transparent;
+}
