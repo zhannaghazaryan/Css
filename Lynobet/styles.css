@@ -92,3 +92,19 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
   background: transparent;
   background-color: transparent;
 }
+
+[data-mj="register-button"].app-ltr-t52h7a {
+  color: rgb(255 255 255) !important;
+}
+
+[data-mj="register-button"] {
+  background: linear-gradient(90deg, #FF49D1 0%, #6A4CFF 100%) !important;
+}
+
+[data-mj="login-button"].app-ltr-pb874a::before {
+  background: #252141 !important;
+}
+
+.sl-select__control.app-ltr-3easl1-control {
+  border-color: #252141 !important;
+}
