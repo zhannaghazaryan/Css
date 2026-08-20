@@ -131,3 +131,7 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
 a.app-ltr-q5tk7v[href="/en/thehauntedhouse"] {
   display: none !important;
 }
+
+[data-mj="sidebar-special-button"].app-ltr-r32ezy {
+  display: none !important;
+}
