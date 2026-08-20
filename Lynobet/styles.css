@@ -58,7 +58,7 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
 }
 
 [data-mj="sidebar"].app-ltr-17u1px6 {
-  width: 74px;
+  width: 260px !important;
   padding: 0;
   border-radius: 0 !important;
 }
@@ -107,4 +107,14 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
 
 .sl-select__control.app-ltr-3easl1-control {
   border-color: #252141 !important;
+}
+
+[data-mj="sidebar-collapse"][aria-label="arrow_left"] svg {
+  transform: scaleX(-1) !important;
+  transform-origin: center;
+}
+
+[data-mj="sidebar-collapse"][aria-label="arrow_right"] svg {
+  transform: scaleX(-1) !important;
+  transform-origin: center;
 }
