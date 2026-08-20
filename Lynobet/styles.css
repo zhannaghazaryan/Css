@@ -101,8 +101,27 @@ button.sl-icon.app-ltr-d79bf5[aria-label="arrow_down"][name="arrow_down"]:hover 
   background: linear-gradient(90deg, #FF49D1 0%, #6A4CFF 100%) !important;
 }
 
+@property --button-border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
 [data-mj="login-button"].app-ltr-pb874a::before {
-  background: #252141 !important;
+  background: conic-gradient(
+    from var(--button-border-angle),
+    #FF49D1,
+    #FFFFFF,
+    #6A4CFF,
+    #FF49D1
+  ) !important;
+  animation: button-border-spin 2s linear infinite;
+}
+
+@keyframes button-border-spin {
+  to {
+    --button-border-angle: 360deg;
+  }
 }
 
 .sl-select__control.app-ltr-3easl1-control {
@@ -132,6 +151,6 @@ a.app-ltr-q5tk7v[href="/en/thehauntedhouse"] {
   display: none !important;
 }
 
-[data-mj="sidebar-special-button"].app-ltr-r32ezy {
+[data-mj="sidebar-special-button"] {
   display: none !important;
 }
