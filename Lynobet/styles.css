@@ -154,3 +154,40 @@ a.app-ltr-q5tk7v[href="/en/thehauntedhouse"] {
 [data-mj="sidebar-special-button"] {
   display: none !important;
 }
+[data-mj="widget-pages-slider-list"] > li > a {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: inset 0 0 0 1px #252141 !important;
+  overflow: visible;
+}
+
+li:has(> a[href="/en/dice"]),
+a[href="/en/dice"] {
+  position: relative !important;
+  overflow: visible !important;
+}
+
+a[href="/en/dice"] [data-site-badge="true"] {
+  top: -10px !important;
+  right: -8px !important;
+  z-index: 5 !important;
+}
+
+a[href="/en/dice"] [data-site-badge="true"]::before {
+  content: none !important;
+}
+
+.keen-slider__slide.app-ltr-14h9jc7
+a[href="/en/dice"] [data-site-badge="true"] {
+  width: auto !important;
+  height: 14px !important;
+  padding: 4px 8px !important;
+  top: -3px !important;
+  right: 0 !important;
+  background: rgb(166 148 255) !important;
+  color: rgb(255 255 255) !important;
+  border-radius: 13px !important;
+  font-size: 8px !important;
+  line-height: 10px !important;
+}
